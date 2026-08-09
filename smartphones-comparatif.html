@@ -180,6 +180,39 @@
                 justify-content: center;
             }
         }
+    .comparison {
+    background: white;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.comparison table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 650px;
+}
+
+.comparison th,
+.comparison td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.comparison th {
+    background: #111827;
+    color: white;
+}
+
+.comparison tr:hover {
+    background: #f3f4f6;
+}
     </style>
 </head>
 
@@ -210,6 +243,82 @@
 </header>
 
 <main class="container">
+
+<section class="comparison">
+
+    <h2>📊 Comparatif rapide des 6 smartphones</h2>
+
+    <div class="table-wrapper">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Smartphone</th>
+                    <th>RAM</th>
+                    <th>Stockage</th>
+                    <th>5G</th>
+                    <th>Notre avis</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>🥇 Samsung Galaxy A56 5G</td>
+                    <td>8 Go</td>
+                    <td>256 Go</td>
+                    <td>✅</td>
+                    <td>⭐ Excellent choix</td>
+                </tr>
+
+                <tr>
+                    <td>🥈 Google Pixel 10a</td>
+                    <td>8 Go</td>
+                    <td>256 Go</td>
+                    <td>✅</td>
+                    <td>📸 Très bon en photo</td>
+                </tr>
+
+                <tr>
+                    <td>🥉 Redmi Note 14 Pro 5G</td>
+                    <td>8 Go</td>
+                    <td>256 Go</td>
+                    <td>✅</td>
+                    <td>💰 Excellent rapport qualité/prix</td>
+                </tr>
+
+                <tr>
+                    <td>Nothing Phone (3a) Lite</td>
+                    <td>8 Go</td>
+                    <td>256 Go</td>
+                    <td>✅</td>
+                    <td>✨ Design original</td>
+                </tr>
+
+                <tr>
+                    <td>Samsung Galaxy A37 5G</td>
+                    <td>8 Go</td>
+                    <td>256 Go</td>
+                    <td>✅</td>
+                    <td>👍 Très polyvalent</td>
+                </tr>
+
+                <tr>
+                    <td>Samsung Galaxy A16 5G</td>
+                    <td>8 Go</td>
+                    <td>256 Go</td>
+                    <td>✅</td>
+                    <td>💶 Choix économique</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
 
     <!-- GALAXY A56 -->
 

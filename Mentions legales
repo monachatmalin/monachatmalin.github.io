@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentions légales | Guide Tech</title>
+<meta name="description" content="Mentions légales du site Guide Tech.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="bar">
+    <a href="index.html" class="logo"><span class="dot"></span>Guide Tech</a>
+    <nav class="main">
+      <a href="index.html">Accueil</a>
+      <a href="smartphones.html">Smartphones</a>
+      <a href="informatique.html">Informatique</a>
+      <a href="accessoires.html">Accessoires</a>
+      <a href="automobile.html">Automobile</a>
+      <a href="bons-plans.html">Bons plans</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:32px;">
+  <div class="wrap">
+    <h1 style="font-size:38px;">Mentions légales</h1>
+  </div>
+</section>
+
+<section class="on-card">
+  <div class="wrap" style="max-width:780px;">
+    <div class="disclosure">
+      ⚠️ Cette page est un modèle. Remplace tous les champs entre crochets par tes informations réelles avant publication — c'est une obligation légale en France pour tout site édité depuis le territoire.
+    </div>
+
+    <h2 class="section-title" style="font-size:22px;">Éditeur du site</h2>
+    <p>
+      Le site Guide Tech est édité par : [Ton nom ou ta raison sociale]<br>
+      Statut : [Particulier / Auto-entrepreneur / Société — SIRET si applicable]<br>
+      Adresse : [Ton adresse ou celle de ta société]<br>
+      E-mail de contact : [ton-email@exemple.fr]<br>
+      Directeur de la publication : [Ton nom]
+    </p>
+
+    <h2 class="section-title" style="font-size:22px;">Hébergement</h2>
+    <p>
+      Ce site est hébergé par GitHub Pages :<br>
+      GitHub, Inc. — 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis<br>
+      <a href="https://pages.github.com/" target="_blank" rel="noopener">pages.github.com</a>
+    </p>
+
+    <h2 class="section-title" style="font-size:22px;">Propriété intellectuelle</h2>
+    <p>L'ensemble des contenus (textes, visuels, mise en page) présents sur ce site est la propriété de [ton nom / ta société], sauf mention contraire. Toute reproduction sans autorisation est interdite.</p>
+
+    <h2 class="section-title" style="font-size:22px;">Liens d'affiliation</h2>
+    <p>Ce site participe au programme Amazon Partenaires (Amazon Associates) ainsi qu'à d'autres programmes d'affiliation. Certains liens présents sur le site sont des liens affiliés : lorsqu'un visiteur achète un produit via ces liens, le site peut percevoir une commission, sans surcoût pour l'acheteur.</p>
+
+    <h2 class="section-title" style="font-size:22px;">Contact</h2>
+    <p>Pour toute question, contacte-nous via <a href="contact.html">la page contact</a>.</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Guide Tech</h4>
+        <p style="max-width:40ch; color:#8a939c;">Comparatifs et guides d'achat high-tech. Certains liens présents sur ce site sont des liens d'affiliation.</p>
+      </div>
+      <div>
+        <h4>Catégories</h4>
+        <a href="smartphones.html">Smartphones</a>
+        <a href="informatique.html">Informatique</a>
+        <a href="accessoires.html">Accessoires</a>
+        <a href="automobile.html">Automobile</a>
+      </div>
+      <div>
+        <h4>Informations</h4>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="politique-confidentialite.html">Confidentialité</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="legal">© 2026 Guide Tech — Tous droits réservés</div>
+  </div>
+</footer>
+
+</body>
+</html>

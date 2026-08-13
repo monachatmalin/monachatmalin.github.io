@@ -221,7 +221,7 @@ p.section-sub {
 }
 
 /* ---------- quick comparison table ---------- */
-.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+.table-wrap { overflow: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
 table.spec {
   width: 100%;
   border-collapse: collapse;
@@ -246,7 +246,7 @@ table.spec td {
 table.spec tr:last-child td { border-bottom: none; }
 table.spec tr.best-row td { background: var(--signal-soft); }
 .spec-num { font-family: var(--font-mono); color: var(--ink); }
-.name-cell { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.name-cell { display: flex; align-items: center; gap: 10px; font-weight: 700; white-space: nowrap; }
 
 /* ---------- responsive comparison table (mobile = stacked cards) ---------- */
 @media (max-width: 700px) {
@@ -271,7 +271,7 @@ table.spec tr.best-row td { background: var(--signal-soft); }
     gap: 12px;
   }
   table.spec td:last-child { border-bottom: none; }
-  table.spec td.name-cell { justify-content: flex-start; font-size: 16px; }
+  table.spec td.name-cell { justify-content: flex-start; font-size: 16px; white-space: normal; }
   table.spec td[data-label]::before {
     content: attr(data-label);
     font-family: var(--font-mono);

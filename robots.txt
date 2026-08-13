@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sasbo75.github.io/blog-affiliation/sitemap.xml
+Sitemap: https://monachatmalin.github.io/sitemap.xml

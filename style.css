@@ -227,8 +227,7 @@ table.spec {
   border-collapse: collapse;
   font-size: 14px;
   min-width: 680px;
-}
-table.spec th {
+}table.spec th {
   font-family: var(--font-mono);
   font-size: 11px;
   text-transform: uppercase;
@@ -246,7 +245,8 @@ table.spec td {
 table.spec tr:last-child td { border-bottom: none; }
 table.spec tr.best-row td { background: var(--signal-soft); }
 .spec-num { font-family: var(--font-mono); color: var(--ink); }
-.name-cell { display: flex; align-items: center; gap: 10px; font-weight: 700; white-space: nowrap; }
+.name-cell { font-weight: 700; white-space: nowrap; }
+.name-cell-inner { display: inline-flex; align-items: center; gap: 10px; }
 
 /* ---------- responsive comparison table (mobile = stacked cards) ---------- */
 @media (max-width: 700px) {
